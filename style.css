@@ -1505,6 +1505,112 @@ a {
 /* =============================================
    RESPONSIVE DESIGN
    ============================================= */
+@media (max-width: 575px) {
+    .hero-title {
+        font-size: 1.5rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 0.95rem;
+    }
+    
+    .hero-buttons .btn {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+    
+    .section-title {
+        font-size: 1.6rem;
+    }
+    
+    .page-title {
+        font-size: 1.5rem;
+    }
+    
+    .content-title {
+        font-size: 1.3rem;
+    }
+    
+    .content-paragraph {
+        font-size: 0.95rem;
+    }
+    
+    .highlight-card,
+    .objective-card,
+    .value-card,
+    .benefit-card,
+    .member-card,
+    .contact-card {
+        padding: 20px;
+    }
+    
+    .mission-card,
+    .harmony-box {
+        padding: 20px;
+    }
+    
+    .contact-form-placeholder {
+        padding: 20px;
+    }
+    
+    .form-control {
+        padding: 10px 14px;
+        font-size: 1rem;
+    }
+    
+    .btn {
+        padding: 10px 20px !important;
+        font-size: 0.9rem !important;
+    }
+    
+    .page-header {
+        padding: 50px 0 40px;
+    }
+    
+    .mission-icon,
+    .harmony-icon-large {
+        width: 80px;
+        height: 80px;
+        font-size: 40px;
+    }
+    
+    .highlight-icon,
+    .objective-icon,
+    .benefit-icon {
+        width: 60px;
+        height: 60px;
+        font-size: 28px;
+    }
+    
+    .contact-icon {
+        width: 70px;
+        height: 70px;
+        font-size: 32px;
+    }
+    
+    .brand-wrapper {
+        gap: 10px;
+    }
+    
+    .brand-icon {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+    }
+    
+    .brand-title {
+        font-size: 12px;
+    }
+    
+    .brand-subtitle {
+        font-size: 8px;
+    }
+    
+    .section-header {
+        margin-bottom: 40px;
+    }
+}
+
 @media (max-width: 991px) {
     .hero-title {
         font-size: 2.8rem;
@@ -1529,6 +1635,16 @@ a {
     .brand-subtitle {
         font-size: 10px;
     }
+    
+    .highlight-card,
+    .objective-card,
+    .member-card {
+        padding: 30px;
+    }
+    
+    .form-control {
+        font-size: 1rem;
+    }
 }
 
 @media (max-width: 767px) {
@@ -1547,6 +1663,8 @@ a {
     
     .hero-buttons .btn {
         width: 100%;
+        padding: 12px 24px;
+        font-size: 1rem;
     }
     
     .section-title {
@@ -1561,13 +1679,36 @@ a {
         font-size: 1.5rem;
     }
     
+    .content-paragraph {
+        font-size: 1rem;
+    }
+    
     .mission-card,
     .harmony-box {
         padding: 28px;
     }
     
+    .highlight-card,
+    .objective-card,
+    .value-card,
+    .benefit-card,
+    .contact-card,
+    .member-card {
+        padding: 25px;
+    }
+    
     .contact-form-placeholder {
         padding: 28px;
+    }
+    
+    .form-control {
+        padding: 11px 15px;
+        font-size: 1rem;
+    }
+    
+    .btn {
+        padding: 11px 24px !important;
+        font-size: 1rem !important;
     }
     
     .brand-icon {
@@ -1582,6 +1723,7 @@ a {
     
     .nav-link {
         padding: 10px 0 !important;
+        font-size: 0.95rem;
     }
     
     .language-toggle {
@@ -1590,6 +1732,41 @@ a {
     
     .page-header {
         padding: 70px 0 50px;
+    }
+    
+    .mission-icon,
+    .harmony-icon-large {
+        width: 100px;
+        height: 100px;
+        font-size: 50px;
+    }
+    
+    .highlight-icon,
+    .objective-icon,
+    .benefit-icon {
+        width: 65px;
+        height: 65px;
+        font-size: 30px;
+    }
+    
+    .contact-icon {
+        width: 75px;
+        height: 75px;
+        font-size: 35px;
+    }
+    
+    .section-header {
+        margin-bottom: 45px;
+    }
+    
+    .social-links-large {
+        flex-direction: column;
+        gap: 12px;
+    }
+    
+    .social-link-large {
+        width: 100%;
+        justify-content: center;
     }
 }
 
